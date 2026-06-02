@@ -1,0 +1,8 @@
+**timing - the llm should know the day, if someone mentions today
+
+**page indexing showcase
+
+node summaries are not strong enough
+
+
+regeneration of tree structure, how often?

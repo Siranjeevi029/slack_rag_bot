@@ -1,0 +1,264 @@
+======================================================================
+[2026-05-30 18:40:57] query: list the scenarios where  got mad on the other two
+mode: ANSWER
+
+--- CALL 1: node selection ---
+  key #4 | input=3737 output=2839 total=6576 tokens
+  nodes selected (8): 0003, 0004, 0005, 0008, 0015, 0018, 0021, 0022
+
+--- CALL 2: answer ---
+  key #4 | input=11689 output=1381 total=13070 tokens
+  nodes passed as context (8): 0003, 0004, 0005, 0008, 0015, 0018, 0021, 0022
+  output:
+Here are a few scenarios where Rabbani expressed frustration or strong directives:
+
+*   **Guna Varsha R - Paid API Keys**: On April 27, Rabbani reminded the channel to get permission *before* using any paid API keys, not after, following Guna Varsha R's use of one.
+*   **Guna Varsha R - April Blogs**: On May 12, Rabbani asked Guna Varsha R why no blogs were published for April, stating "why? not written also?" and instructing to follow up on reviews.
+*   **Guna Varsha R - Huly Cards & Documentation**: On May 12, Rabbani noted a Huly card (AI_N-557) was missing links and documentation, and that other task cards were not created or assigned, instructing Guna Varsha R to fix this.
+*   **Guna Varsha R - Leave Request**: On May 12, Rabbani expressed frustration when Guna Varsha R requested leave for the next day without prior approval from Ajay, saying, "then how are expecting he will approve leave at last min, You have ask atleast 1 day before na" and "plz plan early for leaves."
+*   **Siranjeevi P - Blogs**: On May 21, Rabbani was frustrated when Siranjeevi P reported no blogs were done for the month and that he "didn't find anything interesting to write a blog," responding with "then you should hv asked me na."
+
+======================================================================
+[2026-05-30 19:08:57] query: good work buddy
+mode: ANSWER
+
+--- CALL 1: node selection ---
+  key #4 | input=3729 output=42 total=3771 tokens
+  nodes selected (0): (none)
+
+--- CALL 2: answer ---
+  key #5 | input=545 output=61 total=606 tokens
+  nodes passed as context (0): (none)
+  output:
+Thanks! Glad to hear it. 😊
+
+======================================================================
+[2026-05-30 19:11:26] query: can u tell me what are the primary tasks that siranjeevi was working on
+mode: ANSWER_THREAD
+
+--- CALL 1: node selection ---
+  key #5 | input=3789 output=2394 total=6183 tokens
+  nodes selected (23): 0001, 0003, 0004, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022, 0023, 0024, 0025
+
+--- CALL 2: answer ---
+  key #5 | input=14140 output=1566 total=15706 tokens
+  nodes passed as context (23): 0001, 0003, 0004, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022, 0023, 0024, 0025
+  output:
+Siranjeevi P has been working on a few key areas:
+
+*   **Embedding Models:** Evaluating and comparing open-source embedding models using a positive/negative resume ranking method, and documenting the performance.
+*   **Voice AI & LiveKit:**
+    *   Working with `gemini-3.1-live-flash-preview` and LiveKit.
+    *   Investigating natural voice prompting and optimizing prompts for AI recruiters, including documenting transcript comparisons.
+    *   Noted that LiveKit doesn't provide detailed metrics for the ANAM (voice agent) like it does for STT/LLM/TTS.
+    *   Comparing Gemini 3.1 TTS latency with Cartesia.
+*   **Automation & Tools:**
+    *   Explored and automated a Slack summarizer workflow using n8n.
+    *   Worked on "scrapling" as a web fetch tool, comparing its benefits over normal web search, and wrote a blog about it.
+*   **Blogs:** Has a "chrome-devtools-mcp blog" and "page index blog" in review, and recently sent a blog on scrapling. He also identified "deer-flow 2.0 agent" as a potential blog topic.
+*   **Model Evaluation:** Providing summaries and hardware requirements for models like the Sana model for image generation.
+*   **CLI Coding Tools:** Tasked with creating a comparison list of CLI coding tools (Claude Code, Codex, Opencode, Antigravity CLI).
+*   **Security Review:** Participated in a security review, checking for API keys in repos and confirming paid key usage.
+
+======================================================================
+[2026-05-30 19:13:15] query: give me some of the claude mcp servers that siranjeevi has worked on lately
+mode: ANSWER_THREAD
+
+--- CALL 1: node selection ---
+  key #5 | input=3945 output=1966 total=5911 tokens
+  nodes selected (1): 0025
+
+--- CALL 2: answer ---
+  key #5 | input=1453 output=580 total=2033 tokens
+  nodes passed as context (1): 0025
+  output:
+I couldn't find any mention of "claude mcp servers" that Siranjeevi P has worked on in the thread or channel history.
+
+I do see that he's been tasked with creating a comparison list of CLI coding tools, including "Claude Code," and he has a "chrome-devtools-mcp blog" in review.
+
+======================================================================
+[2026-05-30 19:13:40] query: thanks for ur guidance
+mode: ANSWER_THREAD
+
+--- CALL 1: node selection ---
+  key #5 | input=3760 output=3390 total=7150 tokens
+  nodes selected (22): 0001, 0003, 0004, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022, 0024, 0025
+
+--- CALL 2: answer ---
+  key #5 | input=14111 output=57 total=14168 tokens
+  nodes passed as context (22): 0001, 0003, 0004, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0016, 0017, 0018, 0019, 0020, 0021, 0022, 0024, 0025
+  output:
+You're welcome! Happy to help.
+
+======================================================================
+[2026-05-30 19:14:11] query: any mcp servers ?
+mode: ANSWER_THREAD
+
+--- CALL 1: node selection ---
+  key #5 | input=3926 output=3783 total=7709 tokens
+  nodes selected (1): 0008
+
+--- CALL 2: answer ---
+  key #5 | input=1615 output=839 total=2454 tokens
+  nodes passed as context (1): 0008
+  output:
+I still couldn't find any explicit mention of "mcp servers" that Siranjeevi P has worked on in the thread or channel history.
+
+He does have a "chrome-devtools-mcp blog" in review, and he also mentioned "@Slack MCP Sample" which then joined the channel.
+
+======================================================================
+[2026-05-30 19:15:36] query: share siranjeevi's findings, like the new tools or anything that siranjeevi has shared in this channel so far
+mode: ANSWER_THREAD
+
+--- CALL 1: node selection ---
+  key #5 | input=3958 output=1883 total=5841 tokens
+  nodes selected (17): 0001, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0019, 0020, 0021, 0022, 0024, 0025
+
+--- CALL 2: answer ---
+  key #5 | input=14702 output=1738 total=16440 tokens
+  nodes passed as context (17): 0001, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0019, 0020, 0021, 0022, 0024, 0025
+  output:
+Sure thing! Here are some of the findings, new tools, and links Siranjeevi P has shared in the channel:
+
+*   **LiveKit Metrics:** Noted that LiveKit doesn't provide detailed metrics for the ANAM (voice agent) like it does for STT, LLM, or TTS.
+*   **Embedding Model Evaluation:** Explained a method for comparing embedding models by checking if a positive resume gets a higher similarity score than a negative one for a given job description. He compared the top 3 open-source smaller models and documented their performance.
+*   **Prompt Optimization:** Shared a detailed prompt for an AI recruiter and a document with a transcript comparison to show differences in responses.
+*   **Scrapling:** Found "scrapling" to be a web fetch tool that is better than Claude's web fetch, and he's currently using it. He also wrote a blog about it.
+*   **Deer-flow 2.0 Agent:** Identified this agent as good, and in his analysis, it was better than Opencode for coding and research.
+*   **Sana Model (Image Generation):** Found "Sprint-1.6B 1024px" to be a better image generation model compared to others in its repo, with good latency and a peak GPU requirement of 16GB. He noted it's not ideal for generating architectural diagrams.
+*   **Gemini 3.1 TTS Latency:** Updated that Gemini 3.1 TTS is slower than Cartesia, taking more than 1 second.
+*   **Replacement for Cosine Similarity in RAG:** Shared a GitHub link for "Nairobi_Protocol-GDE-" as a potential replacement.
+*   **Various Links Shared:**
+    *   https://platform.xiaomimimo.com/docs/updates/model?target=2026-04-23-mimo-v25-pro-released
+    *   https://github.com/Zackriya-Solutions/meetily
+    *   https://livekit.com/blog/understand-and-improve-agent-latency
+    *   https://github.com/dimastatz/whisper-flow
+    *   Several X (formerly Twitter) status links related to AI updates and models.
+    *   https://github.com/tkimingi25-spec/Nairobi_Protocol-GDE-
+    *   https://github.com/Thysrael/Horizon
+
+======================================================================
+[2026-05-30 19:16:33] query: what did siranjeevi say about mimo
+mode: ANSWER_THREAD
+
+--- CALL 1: node selection ---
+  key #5 | input=4001 output=184 total=4185 tokens
+  nodes selected (1): 0001
+
+--- CALL 2: answer ---
+  key #5 | input=2225 output=222 total=2447 tokens
+  nodes passed as context (1): 0001
+  output:
+Siranjeevi P shared a link to an update about the `mimo v25 pro` model release: <https://platform.xiaomimimo.com/docs/updates/model?target=2026-04-23-mimo-v25-pro-released>.
+
+======================================================================
+[2026-05-30 19:18:02] query: list all the new findings of siranjeevi, give me eveyrthing
+mode: ANSWER_THREAD
+
+--- CALL 1: node selection ---
+  key #5 | input=4025 output=1835 total=5860 tokens
+  nodes selected (19): 0001, 0003, 0004, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0019, 0020, 0021, 0022, 0023, 0024
+
+--- CALL 2: answer ---
+  key #5 | input=14857 output=2461 total=17318 tokens
+  nodes passed as context (19): 0001, 0003, 0004, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0019, 0020, 0021, 0022, 0023, 0024
+  output:
+Okay, here's a comprehensive list of Siranjeevi P's findings, new tools, and resources he's shared in the channel:
+
+**Key Findings & Evaluations:**
+*   **Embedding Model Evaluation:** Developed a method to compare embedding models by checking if a positive resume gets a higher similarity score than a negative one for a given job description. He compared the top 3 open-source smaller models and documented their performance.
+*   **LiveKit Metrics:** Noted that LiveKit doesn't provide detailed metrics for the ANAM (voice agent) like it does for STT, LLM, or TTS.
+*   **Natural Voice Prompting:** Shared a detailed prompt for an AI recruiter and a document with a transcript comparison to show differences in responses, indicating optimization in this area.
+*   **Gemini 3.1 TTS Latency:** Found that Gemini 3.1 TTS is slower than Cartesia, taking more than 1 second.
+*   **Deer-flow 2.0 Agent:** Identified this agent as performing better than Opencode in coding and research.
+*   **Scrapling:** Found this web fetch tool to be superior to Claude's web fetch, and he's currently using it.
+*   **Hermes vs. Openclaw:** Initially couldn't find significant performance differences between these models.
+*   **Interview Agent Configuration:** Shared sample configuration details for an interview agent, including a temperature of 0.3 and default max tokens.
+
+**New Tools & Resources Explored/Shared:**
+*   **n8n:** Learned how to use it manually and with the MCP server, and automated a Slack summarizer workflow.
+*   **Scrapling:** Actively using this web fetch tool and has written a blog about it.
+*   **Groq:** Mentioned having this as a paid key.
+*   **Replacement for Cosine Similarity in RAG:** Shared a GitHub link for "Nairobi_Protocol-GDE-" as a potential alternative.
+*   **Blogs:** Has a "chrome-devtools-mcp blog" and "page index blog" in review, and has sent a blog on scrapling.
+
+**Links Shared:**
+*   `https://platform.xiaomimimo.com/docs/updates/model?target=2026-04-23-mimo-v25-pro-released` (Mimo v25 pro release)
+*   `https://x.com/i/status/2047690693762539830`
+*   `https://github.com/Zackriya-Solutions/meetily`
+*   `https://livekit.com/blog/understand-and-improve-agent-latency`
+*   `https://docs.google.com/document/d/1knWK5Mh37uOFEFGHna3dK9SnnlEFHBXuqcHRKy9Zgtc/edit?usp=sharing` (Prompt comparison document)
+*   `https://docs.google.com/document/d/1cAxOHGrVvFXEdSDT13VCrQ7EuTVLC5KirH5YtERbCaE/edit?usp=sharing` (Embedding model performance document)
+*   `https://github.com/dimastatz/whisper-flow`
+*   `https://x.com/i/status/2051157092602458208`
+*   `https://x.com/i/status/2051643287623139465`
+*   `https://x.com/i/status/2051713403794702666`
+*   `https://github.com/tkimingi25-spec/Nairobi_Protocol-GDE-` (Replacement of cosine similarity in RAG)
+*   `https://x.com/i/status/2052353346015481980`
+*   `https://github.com/Thysrael/Horizon`
+*   `https://x.com/i/status/2056788266872140232`
+
+======================================================================
+[2026-05-30 19:21:18] query: list all the new findings of siranjeevi, give me eveyrthing
+mode: ANSWER_THREAD
+
+--- CALL 1: node selection ---
+  key #5 | input=3953 output=1794 total=5747 tokens
+  nodes selected (18): 0001, 0004, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0019, 0020, 0021, 0022, 0024, 0025
+
+--- CALL 2: answer ---
+  key #5 | input=14456 output=3734 total=18190 tokens
+  nodes passed as context (18): 0001, 0004, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0019, 0020, 0021, 0022, 0024, 0025
+  output:
+Here are Siranjeevi's new findings and key updates:
+
+*   **Hermes and Openclaw Comparison**: Couldn't find any significant performance difference between Hermes and Openclaw.
+*   **Natural Voice Prompting**: Developed a detailed prompt for an AI recruiter, including specific style, speech behavior, SSML rules, and call flow. He also added a transcript of this prompt to a document to show response differences.
+*   **Embedding Model Evaluation**:
+    *   Compared the top 3 best open-source smaller embedding models and recorded their performance in a document.
+    *   Developed a methodology for evaluation: giving the model positive and negative resumes for a JD and checking how many times the positive resume gets a higher similarity score.
+*   **LiveKit ANAM Metrics**: Identified that LiveKit does not provide detailed metrics for the ANAM (voice agent) like it does for STT, LLM, or TTS.
+*   **n8n & Slack Summarizer**: Learned to use n8n manually and with the MCP server, and automated the Slack summarizer workflow.
+*   **Scrapling**: Worked on scrapling and found it to be better than normal web search, and is currently using it.
+*   **Cosine Similarity Replacement**: Shared a GitHub repository (`Nairobi_Protocol-GDE-`) as a potential replacement for cosine similarity in RAG.
+*   **Gemini 3.1 TTS vs. Cartesia**: Found that Gemini 3.1 TTS is slower than Cartesia, taking more than 1 second.
+*   **Deer-flow 2.0 Agent**: Found the Deer-flow 2.0 agent to be good and better than Opencode in coding and research.
+*   **Interview Agent Configuration**: Shared the sample configuration for the interview agent, noting a temperature of 0.3 and default max tokens.
+*   **Sana Model (Image Generation)**: Found that `Sprint-1.6B 1024px` is better for image generation with good latency compared to other models in its repo, though not ideal for architectural diagrams. This model requires 16GB GPU. (Video generation models were not yet checked).
+
+He also shared several external resources and links throughout the period.
+
+======================================================================
+[2026-05-30 19:22:54] query: these are tasks, but i need siranjeevi's findings, like posts or github links liek that
+mode: ANSWER_THREAD
+
+--- CALL 1: node selection ---
+  key #6 | input=3948 output=2828 total=6776 tokens
+  nodes selected (18): 0001, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0019, 0020, 0021, 0022, 0023, 0024, 0025
+
+--- CALL 2: answer ---
+  key #6 | input=14968 output=1835 total=16803 tokens
+  nodes passed as context (18): 0001, 0005, 0006, 0007, 0008, 0009, 0010, 0011, 0012, 0014, 0015, 0019, 0020, 0021, 0022, 0023, 0024, 0025
+  output:
+Got it, here are Siranjeevi's findings and shared resources, specifically focusing on posts, GitHub links, and documentation:
+
+*   **Natural Voice Prompting**: Shared a document with a transcript of a prompt comparison: `https://docs.google.com/document/d/1knWK5Mh37uOFEFGHna3dK9SnnlEFHBXuqcHRKy9Zgtc/edit?usp=sharing`
+*   **Embedding Model Evaluation**: Documented performance of top 3 open-source models: `https://docs.google.com/document/d/1cAxOHGrVvFXEdSDT13VCrQ7EuTVLC5KirH5YtERbCaE/edit?usp=sharing`
+*   **Cosine Similarity Replacement**: Shared a GitHub repository: `https://github.com/tkimingi25-spec/Nairobi_Protocol-GDE-`
+*   **Scrapling Blog**: Mentioned sending a blog on scrapling, but the link isn't in the channel history.
+
+He also shared several interesting external links:
+*   `https://platform.xiaomimimo.com/docs/updates/model?target=2026-04-23-mimo-v25-pro-released` (April 24)
+*   `https://x.com/i/status/2047690693762539830` (April 24)
+*   `https://github.com/Zackriya-Solutions/meetily` (April 24)
+*   `https://livekit.com/blog/understand-and-improve-agent-latency` (April 30)
+*   `https://x.com/i/status/2051157092602458208` (May 4)
+*   `https://github.com/dimastatz/whisper-flow` (May 2)
+*   `https://x.com/i/status/2051643287623139465` (May 6)
+*   `https://x.com/i/status/2051713403794702666` (May 6)
+*   `https://x.com/i/status/2052353346015481980` (May 8)
+*   `https://github.com/Thysrael/Horizon` (May 16)
+*   `https://x.com/i/status/2056788266872140232` (May 19)
+*   `https://x.com/i/status/2059172145453019389` (May 27)
+*   `https://x.com/i/status/2059170907521003636` (May 27)
+

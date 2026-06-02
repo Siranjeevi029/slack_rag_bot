@@ -1,0 +1,3 @@
+.venv\Scripts\python.exe -m bot.app
+
+.venv\Scripts\python.exe -m bot.update

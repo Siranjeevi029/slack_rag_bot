@@ -1,0 +1,6 @@
+Below is one day of messages from the '{channel}' Slack channel.
+Write a concise summary capturing the key people, tasks, decisions, blockers, links, and topics discussed. Be specific with names. Increase the size of the summary if the log demands it.
+Return only the summary, no preamble.
+
+Messages:
+{text}

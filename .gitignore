@@ -1,0 +1,8 @@
+.env
+keys.txt
+.venv/
+data/
+PageIndex/
+logs/
+__pycache__/
+*.pyc
