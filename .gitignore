@@ -1,5 +1,9 @@
 .env
 keys.txt
+notes.txt
+todo.txt
+output.txt
+output_old.txt
 .venv/
 data/
 PageIndex/
